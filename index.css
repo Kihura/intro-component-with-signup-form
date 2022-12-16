@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+body{
+    font-family: 'Josefin Sans';
+    
+}
+
+.mainimg1{
+    width: 21rem;
+    height: 13rem;
+    margin-left: -0.5rem;
+}
+.logo{
+    margin-top: 1rem;
+    width: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+.texte{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center ;
+    line-height: 0.5;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.intend{
+    text-indent: -2px;
+}
+.ctext{
+    font-weight: 300;
+    color: pink;
+}
+.texte2{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    flex-direction: column;
+    color: violet;
+    line-height: 1.4;
+}
+
+
+#email{
+    margin-bottom: 1rem;
+}
+
+input{
+    margin-top: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 14.5rem;
+    align-items: center;
+    height: 0.5rem;
+
+}
+
+input{
+    float: left;
+    border: 0.1px solid #A8A8A8;
+    
+}
+
+input::placeholder{
+    color: violet;
+}
+.arrow{
+    float: right;
+    margin-left: -40px;
+    background-color: hsl(0, 80%, 86%);
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    padding: 1rem;
+    padding-right: 1.7rem;
+    padding-left: 1.5rem;
+    
+}
+.error{
+    position: relative;
+    right: -200px;
+    bottom: 50px;
+    display: none ;
+}
+.error-border{
+    border-color: red;
+}
+.error-text{
+    margin-top: -2rem;
+    color: red;
+    font-size: 13px;
+    margin-left: 1rem;
+    display: none;
+}
+
+.mainimg2{
+    display: none;
+}
+@media (min-width: 600px){
+    .contain{
+        display: flex ;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .mainimg1{
+        display: none;
+    }
+
+    .mainimg2{
+        display: block;
+        height: 39rem;
+        padding: 0;
+        margin-left: 26rem;
+        margin-top: -1rem;
+    }
+
+    .texte{
+        font-size: 8vw;
+        margin-top: -27rem;
+        margin-right:41rem;
+        
+    }
+    
+    .logo{
+        width: 100rem;
+        height: 3rem;
+        padding: 0;
+        margin-left: 6rem;
+        
+    }
+    .intend,.intend1{
+        text-indent: 0;
+        box-sizing: border-box;
+    }
+    table{
+        margin-left: 5rem;
+    }
+    input{
+        margin-top: 1rem;
+        border-radius: 20px;
+        padding: 1rem;
+        width: 24rem;
+        align-items: center;
+        height: 0.5rem;
+    
+    }
+    .texte2{
+        margin-right: 37rem;
+    }
+
+    .intend{
+        text-indent: 120px;
+    }
+    .intend1{
+        text-indent: 15px;
+        margin-top: -1.2rem;
+    }
+    .error{
+        position: relative;
+        right: -440px;
+        bottom: 50px;
+        display: none ;
+    }
+    .error-border{
+        border-color: red;
+    }
+    .error-text{
+        color: red;
+        font-size: 15px;
+        margin-left: 1rem;
+        display: none;
+        margin-left: 7rem;
+    }
+    }
+
+@media (max-width:600px){
+    .intend{
+        text-indent: -2px;
+    }
+}
+
